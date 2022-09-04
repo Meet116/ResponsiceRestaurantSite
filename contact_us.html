@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Us</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body>
+    <div id=wrapper>
+        <header>
+            <img id="logo" src="images/Group-Project-Final-Logodesktop.jpg" alt="Notre Cuisinett">
+            <img id="logomobile" src="images/Group-Project-Final-Logo-mobile.jpg" alt="Notre Cuisinett">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="private_parties.html">Private Events</a></li>
+                <li><a href="contact_us.html">Contact us</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 class="firsth">Contact Notre Cussine Express</h2>
+            <div class="contact_us">
+                <h3>Reach Us</h3>
+                <div class="mapouter float_left">
+                    <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=conestoga&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                    </div>
+                </div>
+                <div class=float_left id=contact_details>
+                    <p><span class=address>ADDRESS</span> <br> 299 Doon Valley Dr, <br> Kitchener, ON N2G 2M2, <br> Canada
+                    </p>&nbsp;
+                    <p><span class=address>PHONE</span> <br> <a id="mobile" href="tel:888-555-5555">888-555-5555</a><span id="desktop">888-555-5555</span></p>
+                </div>
+            </div>
+            <div id=float_clear>
+                <h3>Write us if you have any question regarding over service, product or anything else. Will get back to you.</h3>
+
+                <form method="POST">
+                    <label for="myName"> Name:</label>
+                    <input type="text" name="myName" id="myName">
+                    <label for="myEmail"> Email:</label>
+                    <input type="email" name="myEmail" id="myEmail">
+                    <label for="myQueries"> Queries: </label>
+                    <textarea rows="4" cols="20" name="myQueries" id="myQueries"></textarea>
+                    <input type="submit" value="Submit" onclick="display_alert()">
+                </form>
+            </div>
+            <div id=feedback>
+                <div class=review>
+                    <img src="images/meet.jpg" alt="feedback1" width="200">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class=review>
+                    <img src="images/gopi.jpeg" alt="feedback2" width="200">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class=review>
+                    <img src="images/Vaishali.JPG" alt="feedback3" width="200">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+    </div>
+    </main>
+    <footer>
+        <div>
+            Privacy Policy | Terms & Conditions<br> Copyright &copy;2021 Restaurant <br>
+            <a href="mailto:notre_cuisinett@gmail.com ">Notre Cuisinett</a>
+        </div>
+    </footer>
+
+    </div>
+</body>
+
+</html>
